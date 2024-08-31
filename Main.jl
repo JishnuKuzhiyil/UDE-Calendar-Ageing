@@ -44,7 +44,7 @@ NN_p_SEI = load("NN1_para.jld2")["Para"]
 NN_p_eps = load("NN2_para.jld2")["Para"]
 NN_st_SEI = load("NN1_state.jld2")["State"]
 NN_st_eps = load("NN2_state.jld2")["State"]
-
+#The Neural network parameters provided heere is retrained verison of parameters used in the original article
 
 sqr(x) = x.^2
 NN_eps =Lux.Chain(
